@@ -5,7 +5,7 @@
    ============================================================ */
 
 const PROFILE = {
-  name: "Your Name",
+  name: "John David Javier",
   tagline: "Student portfolio of quizzes, exams, activities and projects.",
   course: "Your Course / Year Level",
   school: "Your School",
