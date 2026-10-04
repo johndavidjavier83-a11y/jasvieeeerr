@@ -8,7 +8,7 @@ const PROFILE = {
   name: "John David Javier",
   tagline: "Student portfolio of quizzes, exams, activities and projects.",
   course: "Your Course / Year Level",
-  school: "Your School",
+  school: "Cavite State University Silang Campus",
   photo: "",            // e.g. "uploads/me.jpg"  (leave "" for initials)
   about: [
     "Write a short introduction about yourself here.",
