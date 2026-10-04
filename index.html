@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#home" id="brand"></a>
+  <nav>
+    <a href="#home" data-nav="home">Home</a>
+    <a href="#about" data-nav="about">About Me</a>
+    <a href="#work" data-nav="work">My Work</a>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="page">
+    <div class="hero">
+      <p class="course" id="heroCourse"></p>
+      <h1 id="heroName"></h1>
+      <p class="lead" id="heroTag"></p>
+      <div class="cta"><a class="btn" href="#work">View my work</a><a class="btn ghost" href="#about">About me</a></div>
+    </div>
+    <div class="tiles" id="tiles"></div>
+  </section>
+
+  <section id="about" class="page">
+    <div class="about">
+      <div class="avatar" id="avatar"></div>
+      <div>
+        <h2>About Me</h2>
+        <div id="aboutText"></div>
+        <h3>Skills</h3>
+        <ul class="chips" id="skills"></ul>
+        <p class="contact" id="contact"></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="page">
+    <h2>My Work</h2>
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+</main>
+
+<footer id="foot"></footer>
+
+<div class="lightbox" id="lb" hidden>
+  <button class="close" id="lbClose" aria-label="Close">&times;</button>
+  <div class="lb-body" id="lbBody"></div>
+  <p class="lb-cap" id="lbCap"></p>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
